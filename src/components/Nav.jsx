@@ -16,10 +16,20 @@ function Nav() {
           >
             <button className="nav-button">Home</button>
           </NavLink>
-          <NavLink>
+          <NavLink
+            to={"/pricing"}
+            className={({ isActive }) =>
+              isActive ? "text-blue-600 font-bold" : ""
+            }
+          >
             <button className="nav-button">Pricing</button>
           </NavLink>
-          <NavLink>
+          <NavLink
+            to={"/about"}
+            className={({ isActive }) =>
+              isActive ? "text-blue-600 font-bold" : ""
+            }
+          >
             <button className="nav-button">About</button>
           </NavLink>
         </div>
