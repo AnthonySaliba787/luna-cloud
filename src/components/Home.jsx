@@ -13,6 +13,7 @@ function Home() {
   };
   return (
     <>
+      {/* // TODO: Homepage needs height fixes for landscape mode on devices */}
       <div>
         <div className="max-w-[1000px] h-screen mx-auto text-center flex flex-col justify-center items-center">
           <img
@@ -86,6 +87,7 @@ function Home() {
             </p>
           </div>
         </div>
+        {/* // TODO: Potentially add a footer with privacy policy and social media links? */}
       </div>
     </>
   );
