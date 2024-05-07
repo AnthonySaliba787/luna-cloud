@@ -2,8 +2,15 @@ import { ReactTyped } from "react-typed";
 import Cloud from "../assets/cloud.png";
 import { FaEye, FaLightbulb, FaLock } from "react-icons/fa";
 import { IoIosSpeedometer } from "react-icons/io";
+import { useRef } from "react";
 
 function Home() {
+  const targetRef = useRef(null);
+  const scrollToElement = () => {
+    if (targetRef.current) {
+      targetRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div>
@@ -34,9 +41,14 @@ function Home() {
             </span>
             {""}
           </p>
-          <button className="main-button">Learn More</button>
+          <button className="main-button" onClick={scrollToElement}>
+            Learn More
+          </button>
         </div>
-        <div className="max-w-[1300px] grid md:grid-cols-2 gap-12 py-8 text-center mx-auto px-4">
+        <div
+          className="max-w-[1300px] grid md:grid-cols-2 gap-12 py-8 text-center mx-auto px-4"
+          ref={targetRef}
+        >
           <div className="card">
             <FaLightbulb size={40} />
             <h1 className="card-title">Innovative</h1>
