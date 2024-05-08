@@ -89,7 +89,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="w-full py-16 text-white px-4 bg-blue-500">
+        <div className="w-full py-16 text-white px-4 bg-blue-600">
           <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
             <div className="lg:col-span-2 my-4 lg:text-left text-center">
               <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -104,9 +104,9 @@ function Home() {
                 <input
                   type="email"
                   placeholder="Enter Email"
-                  className="p-4 rounded-md text-blue-500 hover:shadow-xl duration-300"
+                  className="p-4 rounded-md text-blue-600 hover:shadow-xl duration-300"
                 />
-                <button className="main-button bg-white text-blue-500 hover:bg-blue-100 hover:shadow-xl active:bg-blue-200">
+                <button className="main-button bg-white text-blue-600 hover:bg-blue-100 hover:shadow-xl active:bg-blue-200">
                   Sign Up
                 </button>
               </div>
