@@ -41,7 +41,10 @@ function Home() {
             </span>
             {""}
           </p>
-          <button className="main-button" onClick={scrollToElement}>
+          <button
+            className="main-button hover:bg-blue-500 hover:shadow-xl active:bg-blue-400"
+            onClick={scrollToElement}
+          >
             Learn More
           </button>
         </div>
@@ -86,7 +89,36 @@ function Home() {
             </p>
           </div>
         </div>
-        {/* // TODO: Potentially add a footer with privacy policy and social media links? */}
+        <div className="w-full py-16 text-white px-4 bg-blue-500">
+          <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
+            <div className="lg:col-span-2 my-4 lg:text-left text-center">
+              <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                Want to keep up with the latest Luna Cloud news?
+              </h1>
+              <p className="font-medium text-sm md:text-lg">
+                Sign up to our newsletter, it's very easy!
+              </p>
+            </div>
+            <div className="my-4">
+              <div className="flex flex-col lg:flex-row items-center justify-between w-full lg:gap-2">
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  className="p-4 rounded-md text-blue-500 hover:shadow-xl duration-300"
+                />
+                <button className="main-button bg-white text-blue-500 hover:bg-blue-100 hover:shadow-xl active:bg-blue-200">
+                  Sign Up
+                </button>
+              </div>
+              <p className="lg:text-left text-center">
+                We care about the protection of your data. Read our{" "}
+                <span className="text-blue-900 cursor-pointer">
+                  Privacy Policy.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

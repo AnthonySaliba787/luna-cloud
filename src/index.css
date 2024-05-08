@@ -12,11 +12,13 @@
   }
 
   .main-button {
-    @apply w-[150px] md:w-[175px] lg:w-[200px] py-4 my-4 bg-blue-600 text-white rounded-md mx-auto font-medium hover:bg-blue-500 hover:shadow-xl active:bg-blue-400 duration-300;
+    @apply w-[150px] md:w-[175px] lg:w-[200px] py-4 my-4 bg-blue-600 
+    text-white rounded-md mx-auto font-medium duration-300;
   }
 
   .card {
-    @apply bg-blue-600 text-white max-w-[700px] h-auto py-36 text-center flex flex-col items-center justify-center shadow-xl rounded-md gap-4 hover:scale-[1.03] hover:shadow-2xl duration-300;
+    @apply bg-blue-600 text-white max-w-[700px] h-auto py-36 text-center flex flex-col 
+    items-center justify-center shadow-xl rounded-md gap-4 hover:scale-[1.03] hover:shadow-2xl duration-300;
   }
 
   .card-title {
