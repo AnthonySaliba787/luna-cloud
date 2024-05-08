@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .custom-container {
+    @apply max-w-[1000px] py-72 h-screen mx-auto text-center flex flex-col justify-center items-center;
+  }
+
   .nav-button {
     @apply max-w-[400px] py-8 font-medium hover:text-blue-500 duration-300;
   }

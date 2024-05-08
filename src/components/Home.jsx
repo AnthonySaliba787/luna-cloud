@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <div>
-        <div className="max-w-[1000px] py-72 h-screen mx-auto text-center flex flex-col justify-center items-center">
+        <div className="custom-container">
           <img
             className="w-80 mx-auto my-[-3rem]"
             src={Cloud}
