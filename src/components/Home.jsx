@@ -14,6 +14,7 @@ function Home() {
   return (
     <>
       <div>
+        {/* Hero Section */}
         <div className="custom-container">
           <img
             className="w-80 mx-auto my-[-3rem]"
@@ -48,6 +49,9 @@ function Home() {
             Learn More
           </button>
         </div>
+
+        {/* Card/Middle Section */}
+
         <div
           className="max-w-[1300px] grid md:grid-cols-2 gap-12 py-8 text-center mx-auto px-4"
           ref={targetRef}
@@ -89,6 +93,9 @@ function Home() {
             </p>
           </div>
         </div>
+
+        {/* Footer Section */}
+
         <div className="w-full py-16 text-white px-4 bg-blue-600">
           <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
             <div className="lg:col-span-2 my-4 lg:text-left text-center">
@@ -112,7 +119,7 @@ function Home() {
               </div>
               <p className="lg:text-left text-center">
                 We care about the protection of your data. Read our{" "}
-                <span className="text-blue-900 cursor-pointer">
+                <span className="text-blue-300 cursor-pointer">
                   Privacy Policy.
                 </span>
               </p>

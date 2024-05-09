@@ -4,7 +4,7 @@
 
 @layer components {
   .custom-container {
-    @apply max-w-[1000px] py-72 h-screen mx-auto text-center flex flex-col justify-center items-center;
+    @apply max-w-[1000px] h-screen mx-auto text-center flex flex-col justify-center items-center;
   }
 
   .nav-button {
