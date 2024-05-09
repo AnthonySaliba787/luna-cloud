@@ -15,7 +15,7 @@ function Home() {
     <>
       <div>
         {/* Hero Section */}
-        <div className="custom-container">
+        <div className="custom-container overflow-y-auto">
           <img
             className="w-80 mx-auto my-[-3rem]"
             src={Cloud}
@@ -53,7 +53,7 @@ function Home() {
         {/* Card/Middle Section */}
 
         <div
-          className="max-w-[1300px] grid md:grid-cols-2 gap-12 py-8 text-center mx-auto px-4"
+          className="max-w-[1300px] grid md:grid-cols-2 gap-12 py-8 text-center mx-auto px-4 overflow-y-auto"
           ref={targetRef}
         >
           <div className="card">
@@ -96,7 +96,7 @@ function Home() {
 
         {/* Footer Section */}
 
-        <div className="w-full py-16 text-white px-4 bg-blue-600">
+        <div className="w-full py-16 text-white px-4 bg-blue-600 overflow-y-auto">
           <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
             <div className="lg:col-span-2 my-4 lg:text-left text-center">
               <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">

@@ -6,12 +6,12 @@ function Pricing() {
     <>
       <div>
         {/* Subscription Plans Section */}
-        <div className="max-w-[2000px] flex flex-col justify-evenly items-center px-4">
+        <div className="max-w-[2000px] relative h-screen flex flex-col md:justify-center md:bottom-12 items-center px-4 overflow-y-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center py-4">
             Subscription Plans
           </h1>
-          <div className="w-full mx-auto grid md:grid-cols-3 gap-8 py-4 px-4 items-center">
-            <div className="shadow-xl bg-blue-100 flex flex-col p-4 my-4 rounded-lg hover:scale-[1.02] duration-300 items-center text-center">
+          <div className="w-full flex flex-col md:flex-row gap-8 py-4 px-4 justify-center items-center">
+            <div className="w-full shadow-xl bg-blue-100 flex flex-col p-4 my-4 rounded-lg hover:scale-[1.02] duration-300 items-center text-center">
               <FaCloudUploadAlt size={70} className="text-blue-600 my-2" />
               <h1 className="text-3xl font-bold">Tier 1</h1>
               <ul className="text-lg font-medium py-8">
