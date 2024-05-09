@@ -60,36 +60,32 @@ function Home() {
             <FaLightbulb size={40} />
             <h1 className="card-title">Innovative</h1>
             <p className="card-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Temporibus deleniti voluptatibus at adipisci corporis nulla quidem
-              obcaecati ut sint nihil.
+              Using the most innovative and cutting-edge cloud storage
+              technology in the industry today.
             </p>
           </div>
           <div className="card">
             <FaLock size={40} />
             <h1 className="card-title">Secure</h1>
             <p className="card-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              magnam assumenda esse cupiditate nemo debitis libero dolore minus,
-              eum qui.
+              All data is sent through multiple layers of advanced encryption,
+              ensuring maximum security practices.
             </p>
           </div>
           <div className="card">
             <IoIosSpeedometer size={40} />
             <h1 className="card-title">Fast</h1>
             <p className="card-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              magnam assumenda esse cupiditate nemo debitis libero dolore minus,
-              eum qui.
+              Uploads and downloads will never be negatively affected by the
+              speed of our servers, with an uptime of 99%.
             </p>
           </div>
           <div className="card">
             <FaEye size={40} />
             <h1 className="card-title">Private</h1>
             <p className="card-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              magnam assumenda esse cupiditate nemo debitis libero dolore minus,
-              eum qui.
+              As per our legal policies, user data is entirely private and will
+              never be shared or sold.
             </p>
           </div>
         </div>
