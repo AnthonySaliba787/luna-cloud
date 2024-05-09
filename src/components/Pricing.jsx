@@ -6,7 +6,7 @@ function Pricing() {
     <>
       <div>
         {/* Subscription Plans Section */}
-        <div className="max-w-[2000px] relative h-screen flex flex-col md:justify-center md:bottom-12 items-center px-4 overflow-y-auto">
+        <div className="max-w-[2000px] min-h-screen justify-center flex flex-col items-center px-4 overflow-y-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center py-4">
             Subscription Plans
           </h1>
